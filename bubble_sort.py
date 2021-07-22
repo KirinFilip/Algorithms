@@ -2,11 +2,6 @@ print("------------")
 print("O(N^2)")
 print("------------")
 
-
-nums = [5,9,1,3,4,6,6,3,2]
-
-print(f"PRE SORT: {nums}")
-
 def bubble_sort_unoptimized(arr):
   iteration_count = 0
   for element in arr:
@@ -28,6 +23,10 @@ def bubble_sort(arr):
         
   print(f"POST-OPTIMIZED ITERATION COUNT: {iteration_count}")
 
-bubble_sort_unoptimized(nums.copy())
+
+nums = [5,9,1,3,4,6,6,3,2]
+
+print(f"UNSORTED NUMBERS: {nums}")
+bubble_sort_unoptimized(nums)
 bubble_sort(nums)
-print(f"POST SORT: {nums}")
+print(f"SORTED NUMBERS: {nums}")
