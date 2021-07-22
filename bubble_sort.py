@@ -24,7 +24,6 @@ def bubble_sort(arr):
     for index in range(len(arr) - i - 1):
       iteration_count += 1
       if arr[index] > arr[index + 1]:
-        # replacement for swap function
         arr[index], arr[index + 1] = arr[index + 1], arr[index]
         
   print(f"POST-OPTIMIZED ITERATION COUNT: {iteration_count}")
