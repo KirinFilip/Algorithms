@@ -1,6 +1,6 @@
-print("------------")
+print("--------------------")
 print("BUBBLE SORT: O(N^2)")
-print("------------")
+print("--------------------")
 
 def bubble_sort_unoptimized(arr):
   iteration_count = 0
