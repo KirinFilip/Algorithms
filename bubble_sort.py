@@ -1,5 +1,5 @@
 print("------------")
-print("BIG O: N^2")
+print("O(N^2)")
 print("------------")
 
 
