@@ -1,5 +1,5 @@
 print("------------")
-print("O(N^2)")
+print("BUBBLE SORT: O(N^2)")
 print("------------")
 
 def bubble_sort_unoptimized(arr):
