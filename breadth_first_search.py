@@ -1,6 +1,5 @@
 from collections import deque
 
-# Breadth-first search function
 def bfs(root_node, goal_value):
 
   # initialize frontier queue
@@ -23,7 +22,7 @@ def bfs(root_node, goal_value):
     if current_node.value == goal_value:
       return current_path
 
-    # add paths to children to the  frontier
+    # add paths to children to the frontier
     for child in current_node.children:
       new_path = current_path.copy()
       new_path.append(child)
