@@ -1,5 +1,10 @@
 from tree import TreeNode, sample_root_node, print_path, print_tree
 
+print("-------------------------")
+print("DEPTH-FIRST-SEARCH: O(N)")
+print("-------------------------")
+
+
 print_tree(sample_root_node)
 
 def dfs(root, target, path=()):
