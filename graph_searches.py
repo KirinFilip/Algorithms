@@ -1,3 +1,7 @@
+print("----------------------")
+print("DFS and BFS: O(E + V)")
+print("----------------------")
+
 def dfs(graph, current_vertex, target_value, visited=None):
   if visited is None:
     visited = []
